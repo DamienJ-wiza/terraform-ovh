@@ -1,0 +1,45 @@
+{
+  "version": 4,
+  "terraform_version": "0.12.13",
+  "serial": 1,
+  "lineage": "04109154-bd16-ed0d-4326-45062c5a0bd1",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "openstack_networking_network_v2",
+      "name": "front",
+      "provider": "provider.openstack.computeovh",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "admin_state_up": true,
+            "all_tags": [],
+            "availability_zone_hints": [],
+            "description": "",
+            "dns_domain": "",
+            "external": false,
+            "id": "aa5b5999-19a3-4102-8fd5-c2f5711d92c6",
+            "mtu": 9000,
+            "name": "front",
+            "port_security_enabled": false,
+            "qos_policy_id": "",
+            "region": "GRA7",
+            "segments": [],
+            "shared": false,
+            "tags": [],
+            "tenant_id": "9e1013faed644b4a9452f7edcc391dc9",
+            "timeouts": {
+              "create": null,
+              "delete": null
+            },
+            "transparent_vlan": false,
+            "value_specs": null
+          },
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDAsImRlbGV0ZSI6NjAwMDAwMDAwMDAwfSwic2NoZW1hX3ZlcnNpb24iOiIwIn0="
+        }
+      ]
+    }
+  ]
+}
